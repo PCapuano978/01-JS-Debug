@@ -1,14 +1,49 @@
-Please describe in detail your feelings about where you currently are in JavaScript programming. Please include how well you feel that you have mastered it, as well as listing those things that you think are a challenge to you. Any feedback about whre you are, and where you think you need to go, or would like to go, will be very helpful in getting you there.
+"Please describe in detail your feelings about where you currently are in JavaScript programming. Please include how well you feel 
+that you have mastered it, as well as listing those things that you think are a challenge to you. Any feedback about whre you are, 
+and where you think you need to go, or would like to go, will be very helpful in getting you there."
 
-Please describe in detail the types of "bugs" a coder can expect to encounter when coding a web page with JavaScript. Describe the techniques you have learned to resolve the types of bugs that we have examined so far. Quote an outside source containing information on resolving this type of bug.
+> I currently have lukewarm confidence in my abillities in JavaScript as I can recall a decent amount of the fundementals on my own,
+yet I with this feel a uncertainty of what I may be forgetting until I review assignments. That said, this debugging lesson did 
+lessen those worries a bit, but review was required for full completion and it does make me appriciative of this activity and
+furthermore, the school year ahead of me that should surly help. 
 
-Please describe in detail, in your own words, the difference between syntax bugs and logic bugs. Describe the differences in technique in the way that they are resolved. Use an outside source to provide additional information that is relevant to this particular subject matter.
 
-Please describe in detail, in your own words, the three different techniques that we have learned so far to resolve logic bugs. What are the advantages and disadvantages of each method?  For this bell work, you do not need to use an outside source to provide additional information that is relevant to this particular subject matter.
 
-Please describe in detail, in your own words, what we can use a debugger for and how it is used. For what types of situations is a debugger the best choice for resolving bugs? What are the advantages and disadvantages of using a debugger?  For this bell work, you do not need to use an outside source to provide additional information that is relevant to this particular subject matter.
+"Please describe in detail the types of "bugs" a coder can expect to encounter when coding a web page with JavaScript. Describe the 
+techniques you have learned to resolve the types of bugs that we have examined so far. Quote an outside source containing information 
+on resolving this type of bug."
 
-Please describe in detail, in your own words, the four JavaScript key words that are used for Exception Handling. Briefly describe the purpose of each. What are the advantages of the using the techniques of Exception Handling in your coding? For this bell work, you do not need to use an outside source to provide additional information that is relevant to this particular subject matter.
+> Bugs that coders can expect to find in relation to JavaScript can consist of lack of validators that allow user input that otherwise
+doesn't fit the field for the top of info; an example being able to enter in negative numbers in the context of amounts. In particular,
+this excercise had me program scrips that ensured the user would put a number greater than "0" for the acres and a number between "1"
+and "12" for the monthes per year, both of which being done by implementing if statements that check for validation and in the case of
+erroneous input, remove the text and then reiterated the requirements.  
 
-Please describe in detail, in your own words, what you think are the most important take-aways that you got from the unit on debugging techniques. How will these techniques help you be successful in your coding? For this bell work, you do not need to use an outside source to provide additional information that is relevant to this particular subject matter.
+
+
+"Please describe in detail, in your own words, the difference between syntax bugs and logic bugs. Describe the differences in technique 
+in the way that they are resolved. Use an outside source to provide additional information that is relevant to this particular subject matter."
+
+> A syntax error is a line of code that the program reads of being incorrect for its langauge, where a logic error is something that is
+read correctly for the system, but is an unitended effect of the producer. An example of a syntax error would be forgetting characters
+in lines such as a "v" in "var" for a variable declaration or a "=" for an equation, while an example of a logical error would be having
+"<=" instead of ">=" or vise versa when reading if statements; all of these which were nessasary to completing the lesson. 
+
+
+
+Please describe in detail, in your own words, the three different techniques that we have learned so far to resolve logic bugs. 
+What are the advantages and disadvantages of each method? For this bell work, you do not need to use an outside source to 
+provide additional information that is relevant to this particular subject matter.
+
+Please describe in detail, in your own words, what we can use a debugger for and how it is used. For what types of situations is 
+a debugger the best choice for resolving bugs? What are the advantages and disadvantages of using a debugger?  For this bell work, 
+you do not need to use an outside source to provide additional information that is relevant to this particular subject matter.
+
+Please describe in detail, in your own words, the four JavaScript key words that are used for Exception Handling. Briefly describe 
+the purpose of each. What are the advantages of the using the techniques of Exception Handling in your coding? For this bell work, 
+you do not need to use an outside source to provide additional information that is relevant to this particular subject matter.
+
+Please describe in detail, in your own words, what you think are the most important take-aways that you got from the unit on 
+debugging techniques. How will these techniques help you be successful in your coding? For this bell work, you do not need to 
+use an outside source to provide additional information that is relevant to this particular subject matter.
 
