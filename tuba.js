@@ -84,7 +84,7 @@ function createRecommendation() {
    if (document.getElementById("E85").checked) { // add suffix to model name based on fuel choice
       messageHeadElement.innerHTML += "E";
    } else if (document.getElementById("biodiesel").checked) {
-      messageHeadElement.innerHTML = "B";
+      messageHeadElement.innerHTML += "B";
    } else {
       messageHeadElement.innerHTML += "D";  
    }
