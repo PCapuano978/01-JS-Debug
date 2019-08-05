@@ -32,7 +32,26 @@ var acresBox = document.forms[0].acres;
 
 /* verify acres text box entry is a positive number */
 function verifyAcres() {
-   testFormCompleteness();      
+   var validity = true;
+    var messageText = "";
+
+    try {
+        if (!(acresBox.value > 0)) {
+            throw "Please enter a number of acres greater than 0.";
+        }
+    } catch (message) {
+        validity = false;
+        messageText = message;
+        // remove erroneous entry from input box
+        acresBox.value = "";
+    } finally {
+        acresComplete = validity;
+        // remove former recommendation
+        messageElement.innerHTML = messageText;
+        messageHeadElement.innerHTML = "";
+        testFormCompleteness();
+    }
+          
 }
 
 /* verify at least one crops checkbox is checked */
