@@ -24,7 +24,7 @@ var messageElement = document.getElementById("message");
 var acresFieldset = document.getElementsByTagName("fieldset")[0];
 var cropsFieldset = document.getElementsByTagName("fieldset")[1];
 var monthsFieldset = document.getElementsByTagName("fieldset")[2];
-var fuelFieldset = document.getElementsByTagName("fieldset)[3];
+var fuelFieldset = document.getElementsByTagName("fieldset")[3];
 
 /* global variables referencing text input elements */
 var monthsBox = document.forms[0].months;
