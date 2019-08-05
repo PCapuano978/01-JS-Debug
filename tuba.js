@@ -42,16 +42,16 @@ function verifyAcres() {
     } catch (message) {
         validity = false;
         messageText = message;
-        // remove erroneous entry from input box
+        // Removes incorrect input from the text box.
         acresBox.value = "";
     } finally {
         acresComplete = validity;
-        // remove former recommendation
+        // Gets rid of reccomendation text.
         messageElement.innerHTML = messageText;
         messageHeadElement.innerHTML = "";
         testFormCompleteness();
     }
-          
+
 }
 
 /* verify at least one crops checkbox is checked */
@@ -62,6 +62,25 @@ function verifyCrops() {
 /* verify months text box entry is between 1 and 12 */
 function verifyMonths() {
    testFormCompleteness();
+
+   var validity = true;
+    var messageText = "";
+    try {
+        if (!(monthsBox.value >= 1 && monthsBox.value <= 12)) {
+            throw "Please enter a number of months between 1 and 12.";
+        }
+    } catch (message) {
+        validity = false;
+        messageText = message;
+        // Removes incorrect input from the text box.
+        monthsBox.value = "";
+    } finally {
+        monthsComplete = validity;
+        // Gets rid of reccomendation text.
+        messageElement.innerHTML = messageText;
+        messageHeadElement.innerHTML = "";
+        testFormCompleteness();
+    }
 }
 
 /* verify that a fuel option button is selected */
