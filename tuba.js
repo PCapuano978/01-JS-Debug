@@ -31,7 +31,7 @@ var monthsBox = document.forms[0].months;
 var acresBox = document.forms[0].acres;
 
 /* verify acres text box entry is a positive number */
-function verifyAcres) {
+function verifyAcres() {
    testFormCompleteness();      
 }
 
