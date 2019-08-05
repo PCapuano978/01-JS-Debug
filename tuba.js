@@ -23,7 +23,7 @@ var messageElement = document.getElementById("message");
 /* global variables referencing fieldset elements */
 var acresFieldset = document.getElementsByTagName("fieldset")[0];
 var cropsFieldset = document.getElementsByTagName("fieldset")[1];
-var monthsFieldset document.getElementsByTagName("fieldset")[2];
+var monthsFieldset = document.getElementsByTagName("fieldset")[2];
 var fuelFieldset = document.getElementsByTagName("fieldset)[3];
 
 /* global variables referencing text input elements */
