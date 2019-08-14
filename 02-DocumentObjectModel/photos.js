@@ -2,8 +2,8 @@
 
  *    Photo gallery
  *    Variables and functions
- *    Author: 
- *    Date:   
+ *    Author: Patrick Capuano
+ *    Date:   8.13.19
 
  *    Filename: photos.js
  */

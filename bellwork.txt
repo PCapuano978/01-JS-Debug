@@ -31,19 +31,44 @@ in lines such as a "v" in "var" for a variable declaration or a "=" for an equat
 
 
 
-Please describe in detail, in your own words, the three different techniques that we have learned so far to resolve logic bugs. 
+"Please describe in detail, in your own words, the three different techniques that we have learned so far to resolve logic bugs. 
 What are the advantages and disadvantages of each method? For this bell work, you do not need to use an outside source to 
-provide additional information that is relevant to this particular subject matter.
+provide additional information that is relevant to this particular subject matter."
 
-Please describe in detail, in your own words, what we can use a debugger for and how it is used. For what types of situations is 
+> Three methods that can consist of debugging JavaScript code would be "alert", "console", and "breakpoints". "Alert" works by issuing
+a prompt on the website when conditions are met within the code, making sure things are the case. "Console" is used in a similar vein,
+but is more flexiable in what info the programmer instructs the program give back through inspecting. Finally, "breakpoints" works
+a bit differently where certain aspects of the code can be flipped on/off through the dev tools to see what might be the cause. 
+
+
+
+"Please describe in detail, in your own words, what we can use a debugger for and how it is used. For what types of situations is 
 a debugger the best choice for resolving bugs? What are the advantages and disadvantages of using a debugger?  For this bell work, 
-you do not need to use an outside source to provide additional information that is relevant to this particular subject matter.
+you do not need to use an outside source to provide additional information that is relevant to this particular subject matter."
 
-Please describe in detail, in your own words, the four JavaScript key words that are used for Exception Handling. Briefly describe 
+> The debugger API function within the dev tools allows for the user to closely monitor the values of each variable ontop in
+the file in addition to also having the abillity of stopping the execution of code at certain points. It's useful in the case that
+it's very streamlined in showing the data when seeking for it and apply actions based on that info, but it does come with the
+downside of only being able to effect those pieces of variables where it could not detect anything outside that range.
+
+
+
+"Please describe in detail, in your own words, the four JavaScript key words that are used for Exception Handling. Briefly describe 
 the purpose of each. What are the advantages of the using the techniques of Exception Handling in your coding? For this bell work, 
-you do not need to use an outside source to provide additional information that is relevant to this particular subject matter.
+you do not need to use an outside source to provide additional information that is relevant to this particular subject matter."
 
-Please describe in detail, in your own words, what you think are the most important take-aways that you got from the unit on 
+> The four key words in JavaScript Exception Handling are "try", "catch, "finally", and "throw". "Try" is used to place an
+excpetion handle within the code with "catch" preceding it to handle the excpetion as can "finally" with the key difference
+being that it doesn't need the exception to have been handled. Finally, "throw" and "throws" are used to throw and imply
+an incoming excpetion respectively with both not being required in the process. 
+
+
+
+"Please describe in detail, in your own words, what you think are the most important take-aways that you got from the unit on 
 debugging techniques. How will these techniques help you be successful in your coding? For this bell work, you do not need to 
-use an outside source to provide additional information that is relevant to this particular subject matter.
+use an outside source to provide additional information that is relevant to this particular subject matter."
 
+> I think the important take-aways that I got from this unit on debugging techniques was the array of commands accessible 
+through the dev tool prompt, such as console.assert, dir, table, log, and others such as the "for each" technique amongst
+also going over a lot of the past methods that are a very welcomed reminder after the summmer break. When it comes to all of 
+these techniques, I plan to use all of them in some compacity as my job of QA.    
