@@ -53,9 +53,6 @@ function verifyAcres() {
         testFormCompleteness();
     }
 
-=======
-   testFormCompleteness();      
->>>>>>> Stashed changes
 }
 
 /* verify at least one crops checkbox is checked */
