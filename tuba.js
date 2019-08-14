@@ -32,7 +32,7 @@ var acresBox = document.forms[0].acres;
 
 /* verify acres text box entry is a positive number */
 function verifyAcres() {
-<<<<<<< Updated upstream
+
    var validity = true;
     var messageText = "";
 
