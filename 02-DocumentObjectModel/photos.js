@@ -21,12 +21,6 @@ function populateFigures() {
    var filename;
    var currentFig;
 
-   for (var i = 1; i < 4; i++) {
-      filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
-      currentFig = document.getElementsByTagName("img")[i-1];
-      currentFig.src = filename;
-   }
-
    if (figureCount === 3) {
       for (var i = 1; i < 4; i++) {
          filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
@@ -37,11 +31,8 @@ function populateFigures() {
       for (var i = 0; i < 5; i++) {
          filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
          currentFig = document.getElementsByTagName("img")[i];
-         currentFig.src = filename;
       }
    }
-
-   figureCount = 5;
 
 }
 
@@ -122,6 +113,8 @@ function previewFive() {
 
    }
 
+   figureCount = 5;
+
 }
 
 function previewThree() {
@@ -151,7 +144,7 @@ function zoomFig() {
    var propertyWidth = 960;
    var propertyHeight = 600;
    var winLeft = ((screen.width - propertyWidth)/ 2);
-   var winTop = ((screen.height - preopertyHeight)/ 2);
+   var winTop = ((screen.height - propertyHeight)/ 2);
    var winOptions = "width=960,height=600,";
    winOptions += ",left=" + winLeft;
    winOptions += ",top=" + winTop;
@@ -163,7 +156,7 @@ function zoomFig() {
    
 }
 
-// initillizing the "createEventListeners" function for further use.
+// initializing the "createEventListeners" function for further use.
 function createEventListeners() {
    var leftarrow = document.getElementById("leftarrow");
 
@@ -188,10 +181,6 @@ function createEventListeners() {
       }
       else if (mainFig.attachEvent) {
          mainFig.attachEvent("onclick", zoomFig);
-      }
-
-      function zoomFig() {
-         alert("center image clicked")
       }
 
    var showAllButton = document.querySelector("#fiveButton p");
