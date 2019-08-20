@@ -152,6 +152,7 @@ function zoomFig() {
    var zoomWindow = window.open("zoom.html", "zoomwin", winOptions);
 
    var zoomWindow = window.open("zoom.html", "zoomwin", "width=960,height=600");
+   
    zoomWindow.focus();
    
 }
@@ -159,6 +160,14 @@ function zoomFig() {
 // initializing the "createEventListeners" function for further use.
 function createEventListeners() {
    var leftarrow = document.getElementById("leftarrow");
+
+   var showAllButton = document.querySelector("#fiveButton p");
+   if (showAllButton.addEventListener) {
+      showAllButton.addEventListener("click", previewFive, false);
+   }
+   else if (showAllButton.attachEvent) {
+      showAllButton.attachEvent("onclick", previewFive);
+   }
 
       if (leftarrow.addEventListener) {
       leftarrow.addEventListener("click", leftArrow, false);
@@ -182,14 +191,6 @@ function createEventListeners() {
       else if (mainFig.attachEvent) {
          mainFig.attachEvent("onclick", zoomFig);
       }
-
-   var showAllButton = document.querySelector("#fiveButton p");
-   if (showAllButton.addEventListener) {
-      showAllButton.addEventListener("click", previewFive, false);
-   }
-   else if (showAllButton.attachEvent) {
-      showAllButton.attachEvent("onclick", previewFive);
-   }
 
 }
 
