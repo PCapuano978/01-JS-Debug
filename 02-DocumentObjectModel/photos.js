@@ -161,14 +161,6 @@ function zoomFig() {
 function createEventListeners() {
    var leftarrow = document.getElementById("leftarrow");
 
-   var showAllButton = document.querySelector("#fiveButton p");
-   if (showAllButton.addEventListener) {
-      showAllButton.addEventListener("click", previewFive, false);
-   }
-   else if (showAllButton.attachEvent) {
-      showAllButton.attachEvent("onclick", previewFive);
-   }
-
       if (leftarrow.addEventListener) {
       leftarrow.addEventListener("click", leftArrow, false);
       } else if (leftarrow.attachEvent) {
@@ -191,6 +183,14 @@ function createEventListeners() {
       else if (mainFig.attachEvent) {
          mainFig.attachEvent("onclick", zoomFig);
       }
+
+   var showAllButton = document.querySelector("#fiveButton p");
+   if (showAllButton.addEventListener) {
+      showAllButton.addEventListener("click", previewFive, false);
+   }
+   else if (showAllButton.attachEvent) {
+      showAllButton.attachEvent("onclick", previewFive);
+   }
 
 }
 
